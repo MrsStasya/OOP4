@@ -58,10 +58,12 @@ public class LinkedList <E> implements Link <E> {
 
         return target.currentElement;
     }
-//        Node <E> target = firstNode.getNextElement();
-//        for (int i = 0; i < counter; i++) {
+    //@Override
+    //    public E getElementByIndex(int counter) {
+    //        Node <E> target = firstNode.getNextElement();
+//          for (int i = 0; i < counter; i++) {
 //            target = getNextElementND(target);
-//        }
+//          }
 //        return target.getCurrentElement();
 //    }
 //public Node <E> getNextElementND(Node<E> current) {
